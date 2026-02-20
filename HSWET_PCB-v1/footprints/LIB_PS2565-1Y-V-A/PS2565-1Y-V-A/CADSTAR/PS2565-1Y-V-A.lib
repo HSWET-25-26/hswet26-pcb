@@ -1,0 +1,16 @@
+.PS2565-1Y-V-A :1 ;The PS2565-1 is optically coupled isolators containing GaAs light emitting diodes and an NPN silicon phototransistor. The PS2565-1 is in a plastic DIP (Dual In-line Package) and the PS2565L-1 is lead bending type (Gull-wing) for surface mount. The PS2565L1-1 is lead bending type for long creepage distance. The PS2565L2-1 is lead bending type for long creepage distance (Gull-wing) for surface mount.
+DIP762W60P254L460H455Q4N
+*STM IC
+*NGS
+*PLB 1="ANODE,  CATHODE" 2="CATHODE,  ANODE" 3="EMITTER" 4="COLLECTOR"
+*MXP 4
+*DFN PS2565-1Y-V-A
+~!Mouser Part Number (968-PS2565-1Y-V-A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Renesas-Electronics/PS2565-1Y-V-A?qs=byeeYqUIh0N82Jp9dFW50g%3D%3D)
+~!Manufacturer_Name (Renesas Electronics)
+~!Manufacturer_Part_Number (PS2565-1Y-V-A)
+~!Link Datasheet (https://www.renesas.com/en-us/doc/YOUSYS/document/002/PN10236EJ05V0DS.pdf)
+~!Height (4.55mm)
+~!3D_Model (PS2565-1Y-V-A)
+PS2565-1Y-V-A
+1.1!U 2.1!U 4.1!U 3.1!U 

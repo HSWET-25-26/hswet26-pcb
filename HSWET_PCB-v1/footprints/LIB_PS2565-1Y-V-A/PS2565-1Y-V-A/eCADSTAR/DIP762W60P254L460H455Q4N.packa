@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PS2565-1Y-V-A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-10-24-19:30:28)
+    (mountForm default
+        (footprintRef "DIP762W60P254L460H455Q4N")
+        (spec "System")
+    )
+)

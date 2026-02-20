@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PS2565-1Y-V-A
+#/2209363/1809302/2.50/4/2/Integrated Circuit
+DEF PS2565-1Y-V-A IC 0 30 Y Y 1 F N
+F0 "IC" 1750 300 50 H V L CNN
+F1 "PS2565-1Y-V-A" 1750 200 50 H V L CNN
+F2 "DIP762W60P254L460H455Q4N" 1750 100 50 H I L CNN
+F3 "https://www.renesas.com/en-us/doc/YOUSYS/document/002/PN10236EJ05V0DS.pdf" 1750 0 50 H I L CNN
+F4 "The PS2565-1 is optically coupled isolators containing GaAs light emitting diodes and an NPN silicon phototransistor. The PS2565-1 is in a plastic DIP (Dual In-line Package) and the PS2565L-1 is lead bending type (Gull-wing) for surface mount. The PS2565L1-1 is lead bending type for long creepage distance. The PS2565L2-1 is lead bending type for long creepage distance (Gull-wing) for surface mount." 1750 -100 50 H I L CNN "Description"
+F5 "4.55" 1750 -200 50 H I L CNN "Height"
+F6 "968-PS2565-1Y-V-A" 1750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Renesas-Electronics/PS2565-1Y-V-A?qs=byeeYqUIh0N82Jp9dFW50g%3D%3D" 1750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Renesas Electronics" 1750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PS2565-1Y-V-A" 1750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ANODE__CATHODE 1 0 0 200 R 50 50 0 0 P
+X CATHODE__ANODE 2 0 -100 200 R 50 50 0 0 P
+X COLLECTOR 4 1900 0 200 L 50 50 0 0 P
+X EMITTER 3 1900 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1700 100 1700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

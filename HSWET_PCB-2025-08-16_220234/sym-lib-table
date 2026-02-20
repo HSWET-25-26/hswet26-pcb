@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "100SP1T1B4M2QE")(type "KiCad")(uri "${KIPRJMOD}/symbol/100SP1T1B4M2QE.kicad_sym")(options "")(descr ""))
+  (lib (name "LM2596")(type "KiCad")(uri "${KIPRJMOD}/symbol/LM2596.kicad_sym")(options "")(descr ""))
+  (lib (name "SMD-DIODE-ZENER-3.3V-300MW_SOT-23_")(type "KiCad")(uri "/Users/maxgao/Documents/hswet26-pcb/HSWET_PCB-v1/symbol/SMD-DIODE-ZENER-3.3V-300MW_SOT-23_.kicad_sym")(options "")(descr ""))
+)

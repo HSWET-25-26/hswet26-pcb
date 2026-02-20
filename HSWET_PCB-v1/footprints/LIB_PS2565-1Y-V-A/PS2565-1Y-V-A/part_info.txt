@@ -1,0 +1,9 @@
+Manufacturer=Renesas Electronics
+PartNumber=PS2565-1Y-V-A
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=4
+Version=4.1
+Released=2020-01-01 09:48:57
+Downloaded=2026-02-10 23:40:41
+3D=Y

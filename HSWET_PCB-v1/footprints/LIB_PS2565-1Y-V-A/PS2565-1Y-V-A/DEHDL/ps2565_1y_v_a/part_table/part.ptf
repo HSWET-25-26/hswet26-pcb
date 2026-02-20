@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PS2565_1Y_V_A'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Renesas Electronics", "PS2565-1Y-V-A" (!) = "", "DIP762W60P254L460H455Q4N", "Dual-In-Line Packages", "968-PS2565-1Y-V-A", "https://www.mouser.co.uk/ProductDetail/Renesas-Electronics/PS2565-1Y-V-A?qs=byeeYqUIh0N82Jp9dFW50g%3D%3D", "The PS2565-1 is optically coupled isolators containing GaAs light emitting diodes and an NPN silicon phototransistor. The PS2565-1 is in a plastic DIP (Dual In-line Package) and the PS2565L-1 is lead bending type (Gull-wing) for surface mount. The PS2565L1-1 is lead bending type for long creepage distance. The PS2565L2-1 is lead bending type for long creepage distance (Gull-wing) for surface mount.", "https://www.renesas.com/en-us/doc/YOUSYS/document/002/PN10236EJ05V0DS.pdf", "4.55 mm"
+END_PART
+
+END.

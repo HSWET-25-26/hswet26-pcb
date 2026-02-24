@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "/Users/maxgao/Documents/hswet26-pcb/HSWET_PCB-v1/footprints")(options "")(descr ""))
+)

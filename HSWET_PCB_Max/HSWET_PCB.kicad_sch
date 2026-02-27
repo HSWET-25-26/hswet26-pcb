@@ -4378,7 +4378,7 @@
 	)
 	(global_label "Turbine_PWR_Sensed"
 		(shape output)
-		(at 152.4 48.26 180)
+		(at 153.67 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4386,9 +4386,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e8dea1ed-1f73-4a7f-b32c-573729d39c63")
+		(uuid "fd7c86d9-c358-48bb-a38c-650462750142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.8812 48.26 0)
+			(at 131.1512 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +6825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "wsg_fp:SOP65P490X110-8N"
+		(property "Footprint" "footprints.:ina260"
 			(at 171.45 50.8 0)
 			(effects
 				(font

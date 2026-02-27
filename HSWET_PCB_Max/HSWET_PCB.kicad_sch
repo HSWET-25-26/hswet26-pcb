@@ -2979,7 +2979,7 @@
 	(text_box "5V_AND_6V_BUCK/BOOST_CONVERTER"
 		(exclude_from_sim no)
 		(at 13.97 20.32 0)
-		(size 99.06 66.04)
+		(size -99.06 66.04)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2992,7 +2992,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "e80d60a6-4675-4600-8d09-0eb1f6cebcd5")
 	)
@@ -3017,12 +3017,6 @@
 		(uuid "ef863e60-27b9-4ba3-ab8d-85f894d2dea6")
 	)
 	(junction
-		(at 153.67 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05119522-36a3-417c-8be2-71c58eb8c766")
-	)
-	(junction
 		(at 195.58 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3039,12 +3033,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bb0b327-cc61-43ba-b573-964c7408e027")
-	)
-	(junction
-		(at 153.67 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53c933a8-235a-47cb-b73f-accc43015df8")
 	)
 	(junction
 		(at 106.68 107.95)
@@ -3224,7 +3212,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "040f95af-dda0-4d19-97b2-faadd324df3e")
+		(uuid "0a78f803-d35a-4c84-8136-a6f8faa1b943")
 	)
 	(wire
 		(pts
@@ -3515,16 +3503,6 @@
 			(type default)
 		)
 		(uuid "8a78427b-37bd-4d47-b99f-8c6ca6ce80a8")
-	)
-	(wire
-		(pts
-			(xy 153.67 45.72) (xy 153.67 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f5979b-7819-4f8f-aa0f-e033c9907808")
 	)
 	(wire
 		(pts
@@ -4378,7 +4356,7 @@
 	)
 	(global_label "Turbine_PWR_Sensed"
 		(shape output)
-		(at 153.67 48.26 180)
+		(at 152.4 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4388,7 +4366,7 @@
 		)
 		(uuid "fd7c86d9-c358-48bb-a38c-650462750142")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.1512 48.26 0)
+			(at 129.8812 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Arduino_UNO_R3"
+		(property "Footprint" "footprints.:ARDUINO_ARDUINO_UNO_REV3"
 			(at 167.64 114.3 0)
 			(effects
 				(font
@@ -7220,7 +7198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Arduino_UNO_R3"
+		(property "Footprint" "footprints.:ARDUINO_ARDUINO_UNO_REV3"
 			(at 210.82 113.03 0)
 			(effects
 				(font
@@ -7509,7 +7487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Arduino_UNO_R3"
+		(property "Footprint" "footprints.:ARDUINO_ARDUINO_UNO_REV3"
 			(at 215.9 148.59 0)
 			(effects
 				(font
@@ -8010,7 +7988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Arduino_UNO_R3"
+		(property "Footprint" "footprints.:ARDUINO_ARDUINO_UNO_REV3"
 			(at 170.18 148.59 0)
 			(effects
 				(font

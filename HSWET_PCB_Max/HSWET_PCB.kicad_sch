@@ -6799,7 +6799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints.:ina260"
+		(property "Footprint" "footprints:ina260"
 			(at 171.45 50.8 0)
 			(effects
 				(font

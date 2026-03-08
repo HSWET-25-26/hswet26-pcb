@@ -2978,8 +2978,8 @@
 	)
 	(text_box "5V_AND_6V_BUCK/BOOST_CONVERTER"
 		(exclude_from_sim no)
-		(at 13.97 20.32 0)
-		(size -99.06 66.04)
+		(at 15.24 21.59 0)
+		(size 99.06 66.04)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3075,10 +3075,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6951a7f-6f3a-4813-8685-36ba9600bbca")
-	)
-	(no_connect
-		(at 223.52 110.49)
-		(uuid "0d82dad1-68c0-453e-a58d-c8bdf2e7359c")
 	)
 	(no_connect
 		(at 154.94 106.68)
@@ -3782,28 +3778,6 @@
 			)
 		)
 	)
-	(global_label "Turbine_PWR_Sensed"
-		(shape input)
-		(at 30.48 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c129b4c-e500-46a7-8763-6a85aff1b5a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.9988 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "9V"
 		(shape output)
 		(at 261.62 46.99 0)
@@ -3826,7 +3800,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_BUCK"
 		(shape output)
 		(at 86.36 58.42 0)
 		(fields_autoplaced yes)
@@ -3838,7 +3812,7 @@
 		)
 		(uuid "5324169a-813e-4659-92db-f30cd0d98e82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.6433 58.42 0)
+			(at 97.7514 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,6 +3945,28 @@
 		(uuid "6391629d-97ca-47d0-afd7-057051753e54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 64.4288 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Safety Signal"
+		(shape input)
+		(at 223.52 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "680373d8-2d73-4d23-8ea0-43669e009c17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.2654 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,6 +8647,48 @@
 				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
 					(reference "#PWR07")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 264.16 123.19)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "501fd5c5-e451-49c3-8c4f-86c31ee3b7e4")
+		(property "Sheetname" "Safety System"
+			(at 264.16 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Safety System.kicad_sch"
+			(at 264.16 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HSWET_PCB"
+				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
+					(page "2")
 				)
 			)
 		)

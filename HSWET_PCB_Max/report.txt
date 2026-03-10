@@ -1,0 +1,1 @@
+Change symbol J4 from 'Connector_Generic:Conn_01x05' to 'Connector_Generic:Conn_01x05': OK

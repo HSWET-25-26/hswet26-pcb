@@ -1372,22 +1372,10 @@
 		(uuid "c2659a1e-1fb8-442d-8ca3-4f80696f3722")
 	)
 	(junction
-		(at 125.73 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f9a006c-dafe-486e-afe3-b3c400840d52")
-	)
-	(junction
 		(at 190.5 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3549c65c-f93b-4759-8fdf-f8df7ac48165")
-	)
-	(junction
-		(at 107.95 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "490cb0c5-46b4-425b-9ccb-a61126817340")
 	)
 	(junction
 		(at 130.81 59.69)
@@ -1400,6 +1388,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ed56096-c6cf-4885-8606-4527dc3fd0b0")
+	)
+	(junction
+		(at 107.95 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70f9c4bd-3373-4ff1-9b15-ad9e86875aa9")
+	)
+	(junction
+		(at 125.73 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dde35481-6c07-49f5-bc2f-61601f26a8f1")
 	)
 	(junction
 		(at 179.07 59.69)
@@ -1446,6 +1446,16 @@
 	(no_connect
 		(at 138.43 95.25)
 		(uuid "fb8ebeab-ba7b-483d-84cb-47b596ae647f")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.69) (xy 109.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049d7a8b-8805-48be-a307-99d7dbd98667")
 	)
 	(wire
 		(pts
@@ -1529,6 +1539,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 59.69) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bb93dd-368a-44c8-b02f-72f289dddc05")
+	)
+	(wire
+		(pts
 			(xy 107.95 59.69) (xy 107.95 87.63)
 		)
 		(stroke
@@ -1559,16 +1579,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 59.69) (xy 125.73 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65c4a1a6-f2b6-47fa-9ec8-a938970f918e")
-	)
-	(wire
-		(pts
 			(xy 125.73 59.69) (xy 130.81 59.69)
 		)
 		(stroke
@@ -1586,6 +1596,16 @@
 			(type default)
 		)
 		(uuid "6fdbce4c-1607-4d6d-95c9-2c1b3773fc5e")
+	)
+	(wire
+		(pts
+			(xy 123.19 59.69) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbed930-c982-4693-b9d4-0c60c7f3cc80")
 	)
 	(wire
 		(pts
@@ -1626,16 +1646,6 @@
 			(type default)
 		)
 		(uuid "dc6fe91d-8210-4c17-8d99-67b8ae8107d4")
-	)
-	(wire
-		(pts
-			(xy 115.57 59.69) (xy 116.84 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5bcd152-9eb4-4eca-afb5-d66b614324c7")
 	)
 	(wire
 		(pts
@@ -2467,7 +2477,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WT")
-		(at 111.76 59.69 180)
+		(at 119.38 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2476,7 +2486,7 @@
 		(fields_autoplaced yes)
 		(uuid "a291df0c-bfbd-4ce7-a903-fd79347e80b8")
 		(property "Reference" "D1"
-			(at 111.76 53.34 0)
+			(at 119.38 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2494,7 @@
 			)
 		)
 		(property "Value" "STPS120M"
-			(at 111.76 55.88 0)
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2502,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DIO_STPS1L40M"
-			(at 111.76 55.245 0)
+			(at 119.38 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2511,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/9c/58/21/f3/e7/b8/4a/bb/CD00002871.pdf/files/CD00002871.pdf/jcr:content/translations/en.CD00002871.pdf"
-			(at 111.76 59.69 0)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2520,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 20V 1A STMITE"
-			(at 111.76 59.69 0)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2529,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 111.76 59.69 0)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2538,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 111.76 59.69 0)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2563,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 119.38 59.69 90)
+		(at 111.76 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2561,7 +2571,7 @@
 		(dnp no)
 		(uuid "b446e744-09d4-4c70-8b63-1a68c4e8d175")
 		(property "Reference" "R9"
-			(at 117.856 62.484 90)
+			(at 110.236 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2579,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 117.856 65.024 90)
+			(at 110.236 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2587,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 119.38 59.69 0)
+			(at 111.76 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2596,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 59.69 0)
+			(at 111.76 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +2605,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 119.38 59.69 0)
+			(at 111.76 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

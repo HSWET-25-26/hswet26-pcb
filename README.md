@@ -21,6 +21,9 @@ PCB
         - [ ] Turbine power 
         - [ ] Lowkey everything there’s not that many nets
 - [ ] Add labels to everything!!! on the board! make it as clear as possible
+- [ ] Things to double check b/c Mirabel thinks she routed it wrong:
+    - [ ] vias on 2 ground pins on U4
+      
 
 
 - [ ] Add holes on corners for default m3 screws

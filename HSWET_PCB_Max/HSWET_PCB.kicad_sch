@@ -4265,7 +4265,7 @@
 			)
 		)
 	)
-	(global_label "turbine_lin_act"
+	(global_label "Turbine_lin_act"
 		(shape output)
 		(at 250.19 71.12 180)
 		(fields_autoplaced yes)
@@ -4277,7 +4277,7 @@
 		)
 		(uuid "aa2e57e6-2c3d-4b4a-84e4-a08d8d524f7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.235 71.12 0)
+			(at 232.9931 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

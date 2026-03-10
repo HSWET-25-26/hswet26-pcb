@@ -1679,7 +1679,7 @@
 			)
 		)
 	)
-	(global_label "5V_BUCK"
+	(global_label "4.5V_BUCK"
 		(shape input)
 		(at 106.68 59.69 180)
 		(fields_autoplaced yes)
@@ -1691,7 +1691,7 @@
 		)
 		(uuid "16baf1be-1351-4c98-aa04-627e34431a3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2886 59.69 0)
+			(at 93.4743 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

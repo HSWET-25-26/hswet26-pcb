@@ -1372,6 +1372,12 @@
 		(uuid "c2659a1e-1fb8-442d-8ca3-4f80696f3722")
 	)
 	(junction
+		(at 125.73 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f9a006c-dafe-486e-afe3-b3c400840d52")
+	)
+	(junction
 		(at 190.5 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1553,13 +1559,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 59.69) (xy 130.81 59.69)
+			(xy 121.92 59.69) (xy 125.73 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65c4a1a6-f2b6-47fa-9ec8-a938970f918e")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 130.81 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d56ddc-b59a-4342-bcea-e30e955f9ba8")
 	)
 	(wire
 		(pts
@@ -1902,6 +1918,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 125.73 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e696d92-ec80-4e61-8185-3519d139c912")
+		(property "Reference" "C4"
+			(at 119.888 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.47"
+			(at 119.888 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CAPPRD500W60D1000H3150"
+			(at 126.6952 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b34cf907-04e0-47a9-9e32-ae61d4a032e2")
+		)
+		(pin "1"
+			(uuid "776f66c2-0909-43e3-bfed-bb6d964bb963")
+		)
+		(instances
+			(project "HSWET_PCB"
+				(path "/82d46295-621f-4df3-b604-ae215ede48d5/501fd5c5-e451-49c3-8c4f-86c31ee3b7e4"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Safety System Library:LTC3525ESC6-5-TRMPBF")
 		(at 135.89 54.61 0)
 		(unit 1)
@@ -2114,6 +2199,72 @@
 			(project ""
 				(path "/82d46295-621f-4df3-b604-ae215ede48d5/501fd5c5-e451-49c3-8c4f-86c31ee3b7e4"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c4b865-4e5a-4dc7-83fd-56ba5da9850d")
+		(property "Reference" "#PWR022"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fce26381-0907-46d6-a5cd-02e48ea6c13b")
+		)
+		(instances
+			(project ""
+				(path "/82d46295-621f-4df3-b604-ae215ede48d5/501fd5c5-e451-49c3-8c4f-86c31ee3b7e4"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

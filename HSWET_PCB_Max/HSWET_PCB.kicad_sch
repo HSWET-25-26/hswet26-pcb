@@ -5,176 +5,6 @@
 	(uuid "82d46295-621f-4df3-b604-ae215ede48d5")
 	(paper "A3")
 	(lib_symbols
-		(symbol "100SP1T1B4M2QE:100SP1T1B4M2QE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "100SP1T1B4M2QE"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "100SP1T1B4M2QE"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/100SP1T1B4M2QE.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "TOGGLE, 5A, 120VAC/28VDC SPDT, On-On Through Hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "28"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "612-100-A1421"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/100SP1T1B4M2QE?qs=YXf4ACKMM4xJ0mJK%2FyIa1g%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "E-Switch"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "100SP1T1B4M2QE"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "100SP1T1B4M2QE_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ARDUINO_UNO_REV3:ARDUINO_UNO_REV3"
 			(pin_names
 				(offset 1.016)
@@ -1014,332 +844,6 @@
 						)
 					)
 					(number "A5_SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CON-SOCJ-2155:CON-SOCJ-2155"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "CON-SOCJ-2155"
-				(at -5.08 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CON-SOCJ-2155:GRAVITECH_CON-SOCJ-2155"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Gravitech"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "11.1 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CON-SOCJ-2155/Gravitech/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "NA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CON-SOCJ-2155/Gravitech/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "CON-SOCJ-2155"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "DC Power Connectors Power Jack/Connector 2.1mm x 5.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Gravitech"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "CON-SOCJ-2155_0_0"
-				(rectangle
-					(start -4.8683 -1.397)
-					(end 5.2917 4.953)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 0.508 -1.016) (xy 1.016 -1.016) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy -5.08 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3173,6 +2677,16 @@
 		)
 		(uuid "8258c425-bea7-42c0-a5b9-016b04e3bbc7")
 	)
+	(text "diode drains anything 40V+\nto protect circuit :DDDDDDDDD\n"
+		(exclude_from_sim no)
+		(at 55.626 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bff05476-2081-437d-8a82-5d3dcfd7f874")
+	)
 	(text_box "Octocuplers"
 		(exclude_from_sim no)
 		(at 16.51 96.52 0)
@@ -3390,10 +2904,6 @@
 		(uuid "d4a4fc66-d348-4bfe-8750-78bc727d6bad")
 	)
 	(no_connect
-		(at 255.27 49.53)
-		(uuid "d8d59149-d005-4006-984e-cb2a83bbaf18")
-	)
-	(no_connect
 		(at 154.94 109.22)
 		(uuid "da108e8f-5b4e-40e0-9c16-ca0c190d1f28")
 	)
@@ -3511,16 +3021,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 40.64) (xy 306.07 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3f35c9-7611-440c-aa51-f6bc284374f9")
-	)
-	(wire
-		(pts
 			(xy 195.58 35.56) (xy 203.2 35.56)
 		)
 		(stroke
@@ -3571,16 +3071,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 39.37) (xy 39.37 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "433e0167-357a-4dd3-aa40-e619b003dec6")
-	)
-	(wire
-		(pts
 			(xy 252.73 34.29) (xy 248.92 34.29)
 		)
 		(stroke
@@ -3611,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 45.72) (xy 60.96 45.72)
+			(xy 39.37 58.42) (xy 66.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3681,16 +3171,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 58.42) (xy 60.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6730bf29-6f1d-453f-986c-a5202424289b")
-	)
-	(wire
-		(pts
 			(xy 339.09 22.86) (xy 340.36 22.86)
 		)
 		(stroke
@@ -3708,26 +3188,6 @@
 			(type default)
 		)
 		(uuid "6a8ca2c8-51b1-4a35-a9c8-046134728194")
-	)
-	(wire
-		(pts
-			(xy 255.27 46.99) (xy 261.62 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bd7fe95-539a-422c-bcec-66e6e2320a7c")
-	)
-	(wire
-		(pts
-			(xy 255.27 52.07) (xy 260.35 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f97bc64-9be9-4ca4-bb8b-f39fe41308a9")
 	)
 	(wire
 		(pts
@@ -3761,16 +3221,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 58.42) (xy 60.96 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "759d750b-c5b4-4c53-b6e1-b98b11542e03")
-	)
-	(wire
-		(pts
 			(xy 102.87 133.35) (xy 109.22 133.35)
 		)
 		(stroke
@@ -3801,16 +3251,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 39.37) (xy 35.56 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89dbe303-e8b4-4aa3-927c-b4a57a117f46")
-	)
-	(wire
-		(pts
 			(xy 54.61 107.95) (xy 46.99 107.95)
 		)
 		(stroke
@@ -3838,6 +3278,16 @@
 			(type default)
 		)
 		(uuid "9ef416c6-a7ce-4301-bb21-db4e905655c8")
+	)
+	(wire
+		(pts
+			(xy 39.37 39.37) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa779b58-ef19-415d-aee5-d3b3ea77f7e0")
 	)
 	(wire
 		(pts
@@ -4253,28 +3703,6 @@
 			)
 		)
 	)
-	(global_label "9V"
-		(shape output)
-		(at 261.62 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4cb4ef5f-57a3-4b4f-b24a-c7b15d48be6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.9033 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "4.5V_BUCK"
 		(shape output)
 		(at 86.36 58.42 0)
@@ -4310,28 +3738,6 @@
 		(uuid "53fc0e31-321d-497f-8f46-107ff71d73ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.8078 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "9V"
-		(shape input)
-		(at 35.56 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54c5712a-1b36-4a28-94c8-05d10b2de710")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.8433 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,28 +3923,6 @@
 			)
 		)
 	)
-	(global_label "9V"
-		(shape input)
-		(at 297.18 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76a100a0-0d2e-456d-9733-4aba055a5f5b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.8967 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 99.06 130.81 0)
@@ -4557,28 +3941,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "4.5V"
-		(shape input)
-		(at 297.18 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90aab856-410e-4783-b296-bd52d998c600")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.0824 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4618,6 +3980,28 @@
 		(uuid "9898ff90-e329-464a-9208-15a57a683151")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.99 122.1233 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "4.5V_BUCK"
+		(shape input)
+		(at 297.18 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d090c9c-a1d0-4bdc-93d4-340a7c220483")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.9743 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,198 +5189,6 @@
 			(project "HSWET_PCB"
 				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CON-SOCJ-2155:CON-SOCJ-2155")
-		(at 245.11 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "323f7746-35a9-4b35-aa5d-15ef9b0fe476")
-		(property "Reference" "J3"
-			(at 245.2158 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CON-SOCJ-2155"
-			(at 245.2158 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:GRAVITECH_CON-SOCJ-2155"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Gravitech"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "11.1 mm"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CON-SOCJ-2155/Gravitech/view-part/?ref=eda"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CON-SOCJ-2155/Gravitech/view-part/?ref=snap"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CON-SOCJ-2155"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "DC Power Connectors Power Jack/Connector 2.1mm x 5.5mm"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Gravitech"
-			(at 245.11 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fcfc13d-8005-48dc-9252-cc042195b7ae")
-		)
-		(pin "2"
-			(uuid "4ef4754e-8dfe-4878-87f4-6ba0498c12a0")
-		)
-		(pin "3"
-			(uuid "0ae30bc1-50cf-43aa-bc3e-b9ae3fbfeb80")
-		)
-		(instances
-			(project "HSWET_PCB"
-				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7868,71 +7060,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 311.15 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5460c87-4445-46b6-9a4d-fa5b11136848")
-		(property "Reference" "J6"
-			(at 310.515 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "9v"
-			(at 310.515 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
-			(at 311.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 311.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 311.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "673c965a-4805-4cc1-b307-1bcbfc6c9b38")
-		)
-		(instances
-			(project "HSWET_PCB"
-				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 134.62 35.56 90)
 		(unit 1)
@@ -7960,7 +7087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 134.62 35.56 0)
 			(effects
 				(font
@@ -8325,73 +7452,6 @@
 			(project "HSWET_PCB"
 				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 260.35 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3675c58-55a3-430f-93e5-424e86d9cd72")
-		(property "Reference" "#PWR015"
-			(at 266.7 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 264.16 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0256e8be-fde3-467a-a6dd-ca0852159677")
-		)
-		(instances
-			(project "HSWET_PCB"
-				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9398,129 +8458,6 @@
 				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
 					(reference "A1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "100SP1T1B4M2QE:100SP1T1B4M2QE")
-		(at 35.56 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec3ff146-d7f8-44b4-9be7-fa80cdca4dd3")
-		(property "Reference" "S1"
-			(at 25.4 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100SP1T1B4M2QE"
-			(at 25.4 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:100SP1T1B4M2QE"
-			(at 19.05 -46.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/100SP1T1B4M2QE.pdf"
-			(at 19.05 -146.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "TOGGLE, 5A, 120VAC/28VDC SPDT, On-On Through Hole"
-			(at 35.56 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "28"
-			(at 19.05 -346.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "612-100-A1421"
-			(at 19.05 -446.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/100SP1T1B4M2QE?qs=YXf4ACKMM4xJ0mJK%2FyIa1g%3D%3D"
-			(at 19.05 -546.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "E-Switch"
-			(at 19.05 -646.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "100SP1T1B4M2QE"
-			(at 19.05 -746.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4df769b9-0531-480e-aae1-e63a6669d3b6")
-		)
-		(pin "2"
-			(uuid "ebd62f96-d463-48e8-9cde-d9eb8a3e37ce")
-		)
-		(pin "3"
-			(uuid "62fd3207-9608-4377-a07a-a7c585c209fc")
-		)
-		(instances
-			(project ""
-				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
-					(reference "S1")
-					(unit 1)
 				)
 			)
 		)

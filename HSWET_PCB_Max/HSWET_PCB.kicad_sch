@@ -3213,26 +3213,6 @@
 		)
 		(uuid "a85405fc-5981-4e36-ac06-e6a944a2643b")
 	)
-	(text_box "ARDUINO_UNO_R3"
-		(exclude_from_sim no)
-		(at 133.35 92.71 0)
-		(size 120.65 73.66)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d41c9dbb-e45a-4e0a-931a-152214660c08")
-	)
 	(text_box "5V_AND_6V_BUCK CONVERTER"
 		(exclude_from_sim no)
 		(at 15.24 21.59 0)
@@ -3354,20 +3334,12 @@
 		(uuid "1caf5921-ac00-4028-b66c-8775faa8d0d4")
 	)
 	(no_connect
-		(at 157.48 148.59)
-		(uuid "1e24669c-a6c5-4069-9011-ea0cec71da40")
-	)
-	(no_connect
 		(at 228.6 153.67)
 		(uuid "2a4a3b68-74d8-486f-a6c3-759908b368ed")
 	)
 	(no_connect
 		(at 223.52 105.41)
 		(uuid "331f318f-b1cb-4b0c-87de-abeeb6568649")
-	)
-	(no_connect
-		(at 255.27 34.29)
-		(uuid "38ed6234-27d2-4bd6-839f-fb306fdae6aa")
 	)
 	(no_connect
 		(at 223.52 113.03)
@@ -3529,6 +3501,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 148.59) (xy 157.48 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b74ab9-350d-498f-89fe-f310b3ba82dd")
+	)
+	(wire
+		(pts
 			(xy 297.18 40.64) (xy 306.07 40.64)
 		)
 		(stroke
@@ -3599,7 +3581,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 31.75) (xy 255.27 31.75)
+			(xy 252.73 34.29) (xy 248.92 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3709,6 +3691,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 22.86) (xy 340.36 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67942e78-99fe-48fe-98c6-4583eee9c660")
+	)
+	(wire
+		(pts
 			(xy 250.19 71.12) (xy 256.54 71.12)
 		)
 		(stroke
@@ -3726,16 +3718,6 @@
 			(type default)
 		)
 		(uuid "6bd7fe95-539a-422c-bcec-66e6e2320a7c")
-	)
-	(wire
-		(pts
-			(xy 255.27 36.83) (xy 262.89 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e8c6364-c45f-4f8c-be73-1b0fdd66dc07")
 	)
 	(wire
 		(pts
@@ -4118,8 +4100,8 @@
 		)
 	)
 	(global_label "Turbine_PWR"
-		(shape output)
-		(at 259.08 31.75 0)
+		(shape input)
+		(at 252.73 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4129,7 +4111,7 @@
 		)
 		(uuid "25922200-3836-4f73-8c8d-8e4775abecfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.9184 31.75 0)
+			(at 267.5684 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,6 +4716,28 @@
 		)
 	)
 	(global_label "Sensor_PWR"
+		(shape input)
+		(at 154.94 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2b38d01-f6ef-4b35-9b9b-82445d039e69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.5854 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sensor_PWR"
 		(shape output)
 		(at 111.76 107.95 0)
 		(fields_autoplaced yes)
@@ -4922,6 +4926,28 @@
 		(uuid "e0b88efb-1d49-4c9d-a2f1-bca8977b259f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 284.8816 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Turbine_PWR_Sensed"
+		(shape input)
+		(at 339.09 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6752203-9821-4ef9-a243-caad34873f0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.5712 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5391,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 36.83 90)
+		(at 248.92 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5374,7 +5400,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e3e58fb-7d5a-4a7a-9607-46adeb35217d")
 		(property "Reference" "#PWR014"
-			(at 269.24 36.83 0)
+			(at 255.27 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 36.8299 90)
+			(at 252.73 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 36.83 0)
+			(at 248.92 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 36.83 0)
+			(at 248.92 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 36.83 0)
+			(at 248.92 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,6 +6846,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 345.44 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f50c417-ef5d-47e6-b31d-6fd0be0abb1f")
+		(property "Reference" "J12"
+			(at 347.98 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LOAD_OUT"
+			(at 347.98 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 345.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 345.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97787b9c-8f32-42d8-b6bf-cae80c7505f3")
+		)
+		(pin "2"
+			(uuid "d87b48a8-fb18-4b48-a631-223859b6094c")
+		)
+		(instances
+			(project ""
+				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 49.53 165.1 0)
 		(mirror y)
@@ -7634,43 +7730,33 @@
 		)
 	)
 	(symbol
-		(lib_id "CON-SOCJ-2155:CON-SOCJ-2155")
-		(at 245.11 34.29 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 243.84 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b45e7a7e-6629-41e4-870f-13db0a05ada2")
+		(uuid "bab68158-1e71-4c7c-86d8-de731c27ec9e")
 		(property "Reference" "J1"
-			(at 245.2158 24.13 0)
+			(at 243.84 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "CON-SOCJ-2155"
-			(at 245.2158 26.67 0)
+		(property "Value" "TURBINE_IN"
+			(at 243.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "footprints:GRAVITECH_CON-SOCJ-2155"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 34.29 0)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 243.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,8 +7764,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 245.11 34.29 0)
+		(property "Datasheet" "~"
+			(at 243.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,137 +7773,23 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Gravitech"
-			(at 245.11 34.29 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 243.84 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "11.1 mm"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CON-SOCJ-2155/Gravitech/view-part/?ref=eda"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CON-SOCJ-2155/Gravitech/view-part/?ref=snap"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CON-SOCJ-2155"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "DC Power Connectors Power Jack/Connector 2.1mm x 5.5mm"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Gravitech"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "09c3e4b4-abc7-4f89-bcfb-0ee580653827")
+			(uuid "11505f21-67ef-4c4f-b6e2-8a5ede9f5545")
 		)
 		(pin "2"
-			(uuid "eb440775-42c3-4fe8-b96e-5966319dcfd2")
-		)
-		(pin "3"
-			(uuid "65e455d2-1d50-41ba-b20f-5c41c9e36a3e")
+			(uuid "b0da753e-1fe2-44ad-afea-b47dec6ca44a")
 		)
 		(instances
-			(project ""
+			(project "HSWET_PCB"
 				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
 					(reference "J1")
 					(unit 1)
@@ -9548,6 +9520,73 @@
 			(project ""
 				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 340.36 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee53b2f8-9aa0-4dca-9633-3b6018d42606")
+		(property "Reference" "#PWR023"
+			(at 334.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 340.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ece42b0-792f-40ce-9363-03f418526a8d")
+		)
+		(instances
+			(project "HSWET_PCB"
+				(path "/82d46295-621f-4df3-b604-ae215ede48d5"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

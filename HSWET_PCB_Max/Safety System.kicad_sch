@@ -1707,7 +1707,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7e696d92-ec80-4e61-8185-3519d139c912")
 		(property "Reference" "C4"
 			(at 119.888 64.008 0)
@@ -1776,7 +1776,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8b0c6ffd-10be-4dc9-97f9-a990e7d05c34")
 		(property "Reference" "U4"
@@ -2147,7 +2147,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d254bd5d-d97e-46d4-bad3-6752daa92b70")
 		(property "Reference" "C2"
 			(at 124.968 64.008 0)
